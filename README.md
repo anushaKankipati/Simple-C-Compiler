@@ -16,10 +16,6 @@ Each phases progressively adds on from the previous. Phase 6 is a culmination of
 
 ## How to Use
 
-### To check all examples at once:
-```bash
-$ ./CHECKSUB.sh phase6.tar examples.tar
-```
 
 ### To generate assembly for individual Simple C files:
 ```bash
@@ -27,5 +23,10 @@ $ ./scc ../examples/<exampleFile.c> test.s
 $ gcc test.s
 $ ./a.out
 ```
+First, we run the scc compiler (a Simple C compiler) on the input C file (<exampleFile.c>). It translates the C code into assembly code and outputs it to test.s. Next, we take the generated assembly file (test.s) and compile it using gcc. It produces an executable file (a.out). Lastly, we run the compiled program, executing the machine code.
 
-First, we are first running the scc compiler (a Simple C compiler) on the input C file (<exampleFile.c>). It translates the C code into assembly code and outputs it to test.s. Next, we take the generated assembly file (test.s) and compils it using the GNU Compiler Collection (gcc). It produces an executable file (a.out). Lastly, we run the compiled program, executing the machine code.
+### To check all examples at once:
+```bash
+$ ./CHECKSUB.sh phase6.tar examples.tar
+```
+This performs above explanation for all examples at once
