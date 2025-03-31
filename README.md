@@ -18,12 +18,12 @@ Each phases progrssively adds on from the previous. Phase 6 is a culmination of 
 
 ### To check all examples at once:
 ```bash
-./CHECKSUB.sh phase6.tar examples.tar
+$ ./CHECKSUB.sh phase6.tar examples.tar
 ```
 
 ### To generate assembly for individual Simple C files:
 ```bash
-./scc ../examples/<exampleFile.c> test.s
-gcc test.s
-./a.out
+$ ./scc ../examples/<exampleFile.c> test.s
+$ gcc test.s
+$ ./a.out
 ```
