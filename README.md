@@ -12,7 +12,7 @@ Building this compiler was broken down into 6 phases:
 5. Storage allocation for functions and rudimentary code generation
 6. Code generation for entire Simple C language
 
-Each phases progrssively adds on from the previous. Phase 6 is a culmination of all the phases, meaning it is the completed compiler.
+Each phases progressively adds on from the previous. Phase 6 is a culmination of all the phases, meaning it is the completed compiler.
 
 ## How to Use
 
